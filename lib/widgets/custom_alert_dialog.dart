@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustomAlertDialog extends StatefulWidget {
-  CustomAlertDialog(
+  const CustomAlertDialog(
       {Key? key,
       required this.title,
       required this.description,

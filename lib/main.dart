@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Colors.deepPurple))),
       ),
-      home: Home(),
+      home: const Home(),
     );
   }
 }

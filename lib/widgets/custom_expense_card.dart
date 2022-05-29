@@ -3,7 +3,7 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:ja_paguei/models/expense.dart';
 
 class ExpenseCard extends StatelessWidget {
-  ExpenseCard({Key? key, this.expense, this.onDelete, this.onEdit})
+  const ExpenseCard({Key? key, this.expense, this.onDelete, this.onEdit})
       : super(key: key);
 
   final Expense? expense;
